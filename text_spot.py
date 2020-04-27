@@ -361,7 +361,7 @@ def main():
                 print('{:<70} {:<15} {:<15} {:<15} {:<10}'.format(layer, stats['layer_type'], stats['exec_type'],
                                                                   stats['status'], stats['real_time']))
        
-	print("Done")
+        print("Done")
 	print(f"frame shape {frame.shape}")
 	cv2.imwrite("new_frame.jpg", frame)
     
