@@ -362,7 +362,7 @@ def main():
                                                                   stats['status'], stats['real_time']))
        
         print("Done")
-	print(f"frame shape {frame.shape}")
+	#print(f"frame shape {frame.shape}")
 	cv2.imwrite("new_frame.jpg", frame)
     
 if __name__ == '__main__':
