@@ -361,9 +361,9 @@ def main():
                 print('{:<70} {:<15} {:<15} {:<15} {:<10}'.format(layer, stats['layer_type'], stats['exec_type'],
                                                                   stats['status'], stats['real_time']))
 		
-        print("Done")
-	    print(f"frame shape {frame.shape}")
-	    cv2.imwrite("new_frame.jpg", frame)
+        cv2.imwrite("new_frame.jpg", frame)#print("Done")
+	    #print(f"frame shape {frame.shape}")
+	    #cv2.imwrite("new_frame.jpg", frame)
     
 if __name__ == '__main__':
     sys.exit(main() or 0)
